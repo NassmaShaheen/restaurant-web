@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-4.0.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Meals</title>
+</head>
+<body>
+    <div class="main-container full-width-container">
+        <header class="modern-header">
+            <div class="logo">
+                <h1> Al-Aila</h1>
+            </div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="AboutUs.html">AboutUs</a></li>
+                    <li><a href="Meals.html">Meals</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="section-title">
+                <h2>Al Aila Signature Dishes</h2>
+            </div>
+            <div class="table-wrapper">
+                <table class="menu-table">
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Meals</th>
+                            <th>Price</th>
+                            <th>Details</th>
+                            <th>Select</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>LS101</td>
+                            <td> Grilled Fish Meal</td>
+                            <td>42000</td>
+                            <td><input type="checkbox" class="details-check" data-target="detail1"></td>
+                            <td><input type="radio" name="mealSelect [] "  value="Grilled Fish Meal"></td>
+                        </tr>
+                        <tr id="detail1" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li><h3>Ingredients :</h3> Fresh fish , Lemon , Olive oil , Garlic ,  Spices ,  White rice</li>
+                                        <li><h3>Category :</h3> Seafood</li>
+                                        <li><h3>Description :</h3> Lemon Garlic Sauce
+                                                 A light and fresh sauce made with lemon juice and garlic, perfect for grilled fish.</li>
+                                    </ul>
+                                    <div class="details-Images">
+                                        <img class="Meal-Image" src="Images/photo_2026-05-01_08-37-04.jpg" alt=" Grilled Fish Meal">
+                                    </div>
+
+                                </div>
+                            </td>
+                        </tr> 
+
+                          <tr>
+                            <td>LS102</td>
+                            <td> Chicken Shawarma Meal</td>
+                            <td>50000</td>
+                            <td><input type="checkbox" class="details-check" data-target="detail2"></td>
+                            <td><input type="radio" name="mealSelect [] "  value="Chicken Shawarma Meal"></td>
+                        </tr>
+
+
+                        <tr id="detail2" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li><h3>Ingredients :</h3> Marinated chicken ,Arabic bread ,Garlic sauce ,French fries ,Pickles</li>
+                                        <li><h3>Category :</h3> Oriental / Middle Eastern</li>
+                                        <li><h3>Description :</h3> Garlic Sauce A creamy and strong-flavored sauce commonly served with chicken shawarma</li>
+                                    </ul>
+                                    <div class="details-Images">
+                                        <img class="Meal-Image" src="Images/photo_2026-05-01_08-26-43.jpg" alt="shawarma">
+                                    </div>
+
+                                </div>
+                            </td>
+                        </tr>
+
+                          <tr>
+                            <td>LS103</td>
+                            <td> Vegetable Pizza </td>
+                            <td>65000</td>
+                            <td><input type="checkbox" class="details-check" data-target="detail3"></td>
+                            <td><input type="radio" name="mealSelect [] "  value="pizza"></td>
+                        </tr>
+
+                        <tr id="detail3" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li><h3>Ingredients :</h3> Pizza dough ,Tomato sauce ,Mozzarella cheese ,Bell pepper ,Olives ,Mushrooms</li>
+                                        <li><h3>Category :</h3> Italian</li>
+                                        <li><h3>Description :</h3> Tomato Sauce A classic Italian sauce used as a base for pizza</li>
+                                    </ul>
+                                    <div class="details-Images">
+                                        <img class="Meal-Image" src="Images/photo_2026-05-01_08-26-24.jpg" alt="pizza">
+                                    </div>
+
+                                </div>
+                            </td>
+                        </tr> 
+
+                          <tr>
+                            <td>LS104</td>
+                            <td> Béchamel Pasta</td>
+                            <td>60000</td>
+                            <td><input type="checkbox" class="details-check" data-target="detail4"></td>
+                            <td><input type="radio" name="mealSelect [] "  value="Béchamel Pasta"></td>
+                        </tr>
+
+                        <tr id="detail4" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li><h3>Ingredients :</h3> Pasta ,Milk ,Flour ,Butter ,Minced meat ,Cheese</li>
+                                        <li><h3>Category :</h3> Italian / Fusion</li>
+                                        <li><h3>Description :</h3> Béchamel Sauce A creamy white sauce used in pasta dishes.</li>
+                                    </ul>
+                                    <div class="details-Images">
+                                        <img class="Meal-Image" src="Images/photo_2026-05-01_08-37-11.jpg" alt="Béchamel Pasta">
+                                    </div>
+
+                                </div>
+                            </td>
+                        </tr> 
+
+                          <tr>
+                            <td>LS105</td>
+                            <td> Beef Burger Meal</td>
+                            <td>70000</td>
+                            <td><input type="checkbox" class="details-check" data-target="detail5"></td>
+                            <td><input type="radio" name="mealSelect [] "  value="Beef Burger Meal"></td>
+                        </tr>
+
+                        <tr id="detail5" class="hidden">
+                            <td colspan="5">
+                                <div class="details-container">
+                                    <ul class="details-list">
+                                        <li><h3>Ingredients :</h3> Beef patty ,Burger bun ,Lettuce ,Tomato ,Cheese ,Sauce ,French fries</li>
+                                        <li><h3>Category :</h3> Fast Food</li>
+                                        <li><h3>Description :</h3> BBQ Sauce A smoky and slightly sweet sauce perfect for burgers</li>
+                                    </ul>
+                                    <div class="details-Images">
+                                        <img class="Meal-Image" src="Images/photo_2026-05-01_08-26-49.jpg " alt="Beef Burger Meal">
+                                    </div>
+
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody> 
+                    </table>
+                    </div>
+
+                    <div class="continue-area">
+                        <button id="continueButton" class="button">Continue to Order</button>
+                    </div>
+
+                    <div id="formContainer" class="hidden">
+                       <div class="section-title">
+                           <h2>Table Reservation & Order Details</h2>
+                       </div>
+<form id="orderForm">
+
+    <div class="form-row">
+        <label for="fullName">الاسم الكامل (أحرف عربية فقط):</label>
+        <input type="text" id="fullName" name="fullName">
+    </div>
+
+    <div class="form-row">
+        <label for="nationalId">الرقم الوطني (11 خانة):</label>
+        <input type="text" id="nationalId" name="nationalId" maxlength="11">
+    </div>
+
+    <div class="form-row">
+        <label for="birthDate">تاريخ الميلاد:</label>
+        <input type="date" id="birthDate" name="birthDate">
+    </div>
+
+    <div class="form-row">
+        <label for="mobile">رقم الموبايل (Syriatel / MTN):</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="09xxxxxxxx">
+    </div>
+
+    <div class="form-row">
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email">
+    </div>
+
+    <div class="action-area">
+        <button type="submit" class="button">إرسال</button>
+    </div>
+
+</form>
+            </div>
+          </main>
+        </div>
+
+       
+    
+    <script src="myFunctions.js"></script>
+     <script src="jquery-4.0.0.js"></script>
+</body>
+</html>
